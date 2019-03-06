@@ -42,18 +42,18 @@ The environment is considered solved, when the average (over 100 episodes) of th
 Install Anaconda - see [Instructions] (https://conda.io/docs/user-guide/install/index.html)
 5. Create an environment with the relevant dependencies
 ```
-conda create -n reacher python=3.6 jupyter pytorch matplotlib
+conda create -n drlnd python=3.6 jupyter pytorch matplotlib
 ```
 6. Activate the environment and launch the Notebook
     - (_for Windows users_)
     ```
-    activate reacher
+    activate drlnd
     jupyter notebook drlm.ipynb
     ```
     - (_for Linux Users_)
     ```
-    source activate banana
-    jupyter notebook Continous_Control.ipynb
+    source activate drlnd
+    jupyter notebook Tennis.ipynb
     ```
 
 7. You can now execute the cells in the `Tennis.ipynb` notebook
